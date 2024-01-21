@@ -1,17 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Programming Foundations CA</title>
-    <link href='css/style.css' rel='stylesheet' />
-    <link rel='icon' href='data:;base64,=' />
-</head>
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="icon" href="data:;base64,=" />
+  </head>
 
-<body>
-
-    <script src="js/script.js"></script>
-</body>
-
+  <body>
+    <header><h1>Coffee Maker</h1></header>
+    <div>
+      <div style="display: flex">
+        <h2>Power on:</h2>
+        <p id="onStatus"></p>
+      </div>
+      <div>
+        <button id="onButton">On</button><button id="offButton">Off</button>
+      </div>
+    </div>
+    <div>
+      <div style="display: flex">
+        <h2>Extra heat on:</h2>
+        <p id="extraHeatStatus"></p>
+      </div>
+      <div>
+        <button id="extraHeatOnButton">Heat</button>
+      </div>
+    </div>
+    <div>
+      <h2>Coffee object</h2>
+      <div id="coffeeObject"></div>
+    </div>
+    <script src="js/coffeeMaker.js"></script>
+  </body>
 </html>
